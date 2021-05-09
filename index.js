@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
     res.render('<h1>Hello World</h1>');
 })
 
-var server = app.listen(12345, function () {
+var server = app.listen(8001, function () {
     var host = server.address().address
     var port = server.address().port
 
