@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    return res.send('<h1>Hello World</h1>');
+    res.render('<h1>Hello World</h1>');
 })
 
 var server = app.listen(12345, function () {
